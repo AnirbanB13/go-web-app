@@ -23,7 +23,7 @@ jobs:
           go-version: 1.22.5
 
       - name: Build the application
-        run: go build -o app go-web-app
+        run: go build -o app .
 
       - name: Run tests
         run: go test ./...
